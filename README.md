@@ -5,7 +5,7 @@
 - Apache
 - PHP 71
 - Composer
-- laravel command
+- Laravel command
 
 ## Init project
 ```
