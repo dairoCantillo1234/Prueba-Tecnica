@@ -29,12 +29,12 @@ cp app
 ![image](https://user-images.githubusercontent.com/95891125/145512462-78fd3ddf-99c6-4259-9a19-3f4753b319b5.png)
 
 ##  Estimación de Desarrollo
-- Estimación: 2h y 40 min.
-- Formulario HTML validaciones básicas: 45 min.
-- Base de Datos MySQL en Docker con el modelo de base de datos: 20 min.
-- API Rest CRUD con Laravel consumiendo base de datos: 40 min.
-- Diagrama de arquitectura: 10 min.
-- Lista de tareas: 20 min.
-- Test unitarios: 10 min.
-- Subir a GitHub: 15 min.
-## Tiempo Real: 4 horas
+- Estimación: 4h y 0 min.
+- Formulario HTML validaciones básicas: 60 min.
+- Base de Datos MySQL en Docker con el modelo de base de datos: 30 min.
+- API Rest CRUD con Laravel consumiendo base de datos: 60 min.
+- Diagrama de arquitectura: 20 min.
+- Lista de tareas: 30 min.
+- Test unitarios: 20 min.
+- Subir a GitHub: 20 min.
+## Tiempo Real: 6 hora y 20 min
