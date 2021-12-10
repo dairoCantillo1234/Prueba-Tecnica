@@ -1,27 +1,25 @@
 # docker-centos-laravel-postgis
 
 ## Used software
-- POSTGRES 9.5 + POSTGIS 2.95
+- MySQL
 - Apache
 - PHP 71
 - Composer
 - laravel command
-- Varnish
 
-## Construct and upload
+## Init project
 ```
-$ docker build -t centos-laravel-postgis:latest . -f Dockerfile
-$ # docker --no-cache build -t centos-laravel-postgis:latest . -f Dockerfile # for no cache
-$ docker login
-$ docker push centos-laravel-postgis:latest
+cp app
+./vendor/bin/sail up -d
+./vendor/bin/sail php artisan migrate
 ```
 
-## Init
+## Stop project
 ```
-docker-compose up
-# get command shell
-docker-compose exec app bash
+./vendor/bin/sail down
 ```
 
-## Projects that use this container
-- Sigma4C https://github.com/sigma4c/blob/master/docker-compose.yml
+## Run tests
+```
+./vendor/bin/sail php artisan test
+```
